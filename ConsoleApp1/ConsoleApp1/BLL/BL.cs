@@ -29,7 +29,7 @@ namespace ActiveMQ_Producer.BLL
             string? ACTIVEMQ_USERNAME = Environment.GetEnvironmentVariable("ACTIVEMQ_USERNAME");  //"10.192.168.91";// 
             string? ACTIVEMQ_PASSWORD = Environment.GetEnvironmentVariable("ACTIVEMQ_PASSWORD"); //"root";// 
             string? ACTIVEMQ_TIMEOUT = Environment.GetEnvironmentVariable("ACTIVEMQ_TIMEOUT");// "1";//
-            string? TOPIC_NAME = "DAVID_TEST";// Environment.GetEnvironmentVariable("TOPIC_NAME");
+            string? TOPIC_NAME = "STATE_CHANGE_CHANNEL";// Environment.GetEnvironmentVariable("TOPIC_NAME");
             string? JSON_PATH = "C:\\Users\\Ajigbotoluwa O.David\\Documents\\EF\\FNB\\WFM\\FTCI-STCI\\FTCI-Connector_SpringBoot\\state-events-logger\\state-change.json";
 
 
